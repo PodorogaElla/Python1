@@ -55,7 +55,7 @@ def get_data(lst):
 
 if __name__ == "__main__":
     res = get_data(['info_1.txt', 'info_2.txt', 'info_3.txt'])
-    write_to_csv('new_file.csv', res)
+    write_to_csv('data_report.csv', res)
 
-    with open('new_file.csv') as f_n:
+    with open('data_report.csv') as f_n:
         print(f_n.read())
