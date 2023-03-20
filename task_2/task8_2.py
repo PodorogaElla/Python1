@@ -20,12 +20,12 @@ def write_order_to_json(item, quantity, price, buyer, date):
             'buyer': buyer,
             'date': date,
         })
-    with open('orders.json', 'w') as f_w:
+    with open('orders.json', 'w') as f_n:
         json.dump(dict_to_json, f_w, indent=4)
 
 
 if __name__ == "__main__":
-    write_order_to_json('Банан', 3, 300, 'Pupkin', '08.03.2019')
-    write_order_to_json('Яблоко', 2, 700, 'Pupkin', '08.03.2019')
-    write_order_to_json('Апельсин', 3, 1200, 'Pupkin', '08.03.2019')
-    write_order_to_json('Груша', 4, 500, 'Pupkin', '08.03.2019')
+    write_order_to_json('принтер', 10, 6700, 'Ivanov I.I.', '24.09.2017')
+    write_order_to_json('scaner', 20, 10000, 'Petrov P.P.', '11.01.2018')
+    write_order_to_json('scaner', 20, 10000, 'Petrov P.P.', '11.01.2018')
+    write_order_to_json('scaner', 20, 10000, 'Petrov P.P.', '11.01.2018')
