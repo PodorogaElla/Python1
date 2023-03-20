@@ -1,4 +1,4 @@
-import json
+
 
 '''
 2. Задание на закрепление знаний по модулю json. Есть файл orders в формате JSON с информацией о заказах. Написать 
@@ -8,6 +8,7 @@ import json
 в файл orders.json. При записи данных указать величину отступа в 4 пробельных символа;
 Проверить работу программы через вызов функции write_order_to_json() с передачей в нее значений каждого параметра. 
 '''
+import json
 
 def write_order_to_json(item, quantity, price, buyer, date):
     with open('orders.json') as f_n:
