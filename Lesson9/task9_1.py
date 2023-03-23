@@ -1,6 +1,4 @@
-'''
-	реализовать дескрипторы для любых двух классов
-'''
+
 class IsString:
     def __set__(self, instance, value):
         if type(value) != str:
